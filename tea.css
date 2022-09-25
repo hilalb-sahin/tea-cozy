@@ -1,0 +1,202 @@
+*{
+    font-family: Helvetica;
+    font-size:22px;
+    color: seashell;
+    
+    
+}
+body{
+    width: fit-content;
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+
+
+nav{
+    display :flex;
+    max-height: 100px;
+    width: 90%;
+    height: auto;
+    text-align: right;
+    color:white;
+
+
+    padding:15px;
+    top:0;
+
+    
+}
+nav ul{
+    width: fit-content;
+    text-align: center;
+}
+nav li{
+    width: fit-content;
+    display:inline-block;
+    text-align: center;
+
+    text-decoration: underline;
+    padding:10px;
+
+}
+
+.main{
+    background-image: url("img-mission-background.jpg");
+    height:700px;
+    display:flex;
+
+    width: 100%;
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+div.main{
+    margin-top: 70px;
+}
+#text{
+
+    background-color: black;
+    color:white;
+    width:100%;
+}
+.text h2{
+    text-align: center;
+}
+
+#mission{
+    align-items: stretch;
+width:100%;
+flex:1;
+    display:flex;
+
+    align-items: center;
+    
+}
+
+.container{
+    width:100%;
+    display:inline-flex;
+
+    flex-wrap: wrap;
+
+    text-align: center;
+    justify-content: center;
+
+}
+.together{
+    margin:10px;
+}
+
+
+
+.div .container{
+    margin-top:50px;
+    flex-wrap: wrap;
+
+    display:flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#tea_display{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.tea_display .img{
+    border: 5px solid rgb(255, 202, 236);
+    display:flex;
+
+    margin:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+.tea_display .together p{
+
+    display:inline-flex;
+    flex-direction: row;
+
+
+}
+
+.container .main2{
+    background-image: url("img-locations-background.jpg");
+    height:700px;
+    display:flex;
+    border: 5px solid rgb(255, 202, 236);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+.box{
+    border: 5px solid rgb(255, 202, 236) ;
+    background-color: black;
+    color:white;
+    margin:10px;
+    padding:10px;
+    width: 300px;
+}
+
+.main2{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#location{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    font-size: xx-large;
+}
+.content{
+
+    display:flex;
+    flex-direction: column;   
+     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.ltext{
+    display:flex;
+    flex-direction: column;
+}
+
+footer{
+display: flex;
+margin:20px;
+padding:50px;
+height:200px;
+justify-content: center;
+}
